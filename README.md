@@ -13,3 +13,8 @@ Official United Nations SDG icons, used unchanged. Sources: https://www.un.org/s
 
 ## Institutional and journal marks
 Institutional logos are sourced from univ-orleans.fr and insa-centrevaldeloire.fr. Journal mastheads and publisher marks are sourced from MDPI, Wiley, Elsevier and AIP Publishing official pages. They identify affiliations, publication venues and editorial roles, and link to the corresponding institution or journal. The AIP mark identifies the publisher of AIP Conference Proceedings.
+
+## Scientific presentation and bibliography
+The scientific presentation is grounded in Abdelhakim SETTAR's HDR, defended on 31 March 2026: thermochemical phenomena, chemical kinetics and coupled transport, with experiments and numerical modelling. Original HDR figures are used with figure/page credits and links to their publication sources. The portrait was provided through the author's LinkedIn profile with his authorization.
+
+The curated bibliography contains 71 references consolidated from the HDR annex, HAL and publisher metadata via Crossref on 16 November 2026: ACL, ACTI, COM, INV and COS. Article corrections are labelled. JITH book chapters use COS; AIP Conference Proceedings contributions use ACTI. Downloadable JSON and CSV retain the source references. Bibliography classification is editorial; OpenAlex counters remain automatically refreshed separately.

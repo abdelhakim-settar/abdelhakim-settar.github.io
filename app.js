@@ -1,23 +1,45 @@
 const search = document.querySelector('#publication-search');
 const year = document.querySelector('#publication-year');
+const category = document.querySelector('#publication-category');
 if (search && year) {
   const publications = [...document.querySelectorAll('[data-publication]')];
+  const groups = [...document.querySelectorAll('[data-publication-group]')];
   const count = document.querySelector('#result-count');
   const empty = document.querySelector('#no-results');
   const normalize = text => text.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+  const synonyms = {cinetique:'kinetic', reformage:'reforming', vaporeformage:'reforming', hydrogene:'hydrogen', transferts:'transfer', thermique:'thermal', mousse:'foam', mousses:'foam', biomasse:'biomass', materiaux:'material', numerique:'numerical'};
   function filter() {
     let visible = 0;
-    const query = normalize(search.value.trim());
+    const terms = normalize(search.value.trim()).split(/\s+/).filter(Boolean);
     for (const publication of publications) {
-      const match = (!year.value || publication.dataset.year === year.value) && normalize(publication.textContent).includes(query);
+      const match = (!year.value || publication.dataset.year === year.value) &&
+        (!category || !category.value || publication.dataset.category === category.value) &&
+        terms.every(term => normalize(publication.textContent).includes(term) || synonyms[term] && normalize(publication.textContent).includes(synonyms[term]));
       publication.hidden = !match;
       if (match) visible++;
     }
-    count.textContent = document.documentElement.lang === 'fr' ? `${visible} publication${visible > 1 ? 's' : ''} affichée${visible > 1 ? 's' : ''}` : `${visible} publication${visible !== 1 ? 's' : ''} shown`;
+    for (const group of groups) {
+      const shown = [...group.querySelectorAll('[data-publication]')].filter(p => !p.hidden).length;
+      group.hidden = shown === 0;
+      const badge = group.querySelector('.category-count');
+      if (badge) badge.textContent = String(shown);
+    }
+    count.textContent = document.documentElement.lang === 'fr'
+      ? `${visible} référence${visible > 1 ? 's' : ''} affichée${visible > 1 ? 's' : ''}`
+      : `${visible} reference${visible !== 1 ? 's' : ''} shown`;
     empty.hidden = visible !== 0;
   }
   search.addEventListener('input', filter);
   year.addEventListener('change', filter);
+  if (category) category.addEventListener('change', filter);
+  for (const link of document.querySelectorAll('.publication-categories a')) {
+    link.addEventListener('click', () => {
+      if (category) category.value = link.hash.slice(1);
+      year.value = '';
+      search.value = '';
+      filter();
+    });
+  }
   filter();
 }
 
