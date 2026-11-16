@@ -2,7 +2,7 @@
 
 Site personnel académique bilingue français / anglais.
 
-Adresse : https://hakset.github.io/
+Adresse : https://abdelhakim-settar.github.io/
 
 Recherche, publications, enseignement, parcours et contact.
 
