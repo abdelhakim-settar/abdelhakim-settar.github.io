@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://hakset.github.io/sitemap.xml
