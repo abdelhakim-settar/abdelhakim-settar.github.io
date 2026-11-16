@@ -1,8 +1,7 @@
 {
   "updated": "2026-11-16",
-  "hdr_bibliography_date": "2025-11-23",
   "classification_reference": "https://www.hceres.fr/sites/default/files/media/downloads/Hceres_campagne_2016_2017_Livret_Global_Entites_Recherche.pdf",
-  "source_note": "HDR annex III, reconciled with HAL and Crossref. Two JITH book chapters use COS. AIP Conference Proceedings contributions use ACTI. Corrections are explicitly labelled.",
+  "source_note": "Author-maintained bibliography, reconciled with HAL and Crossref. JITH book chapters use COS; AIP Conference Proceedings contributions use ACTI. Corrections are explicitly labelled.",
   "records": [
     {
       "category": "ACL",
@@ -14,9 +13,8 @@
       "doi": "10.1016/j.matchemphys.2025.131681",
       "url": "https://doi.org/10.1016/j.matchemphys.2025.131681",
       "hal": "hal-05458523",
-      "source": "HDR + HAL",
-      "correction": false,
-      "hdr_code": "ACL1"
+      "source": "Bibliographie de l’auteur + HAL",
+      "correction": false
     },
     {
       "category": "ACL",
@@ -132,9 +130,8 @@
       "doi": "10.1155/er/4352411",
       "url": "https://doi.org/10.1155/er/4352411",
       "hal": "hal-05458543",
-      "source": "HDR + HAL",
-      "correction": false,
-      "hdr_code": "ACL6"
+      "source": "Bibliographie de l’auteur + HAL",
+      "correction": false
     },
     {
       "category": "ACL",
@@ -146,9 +143,8 @@
       "doi": "10.1016/j.jallcom.2025.180423",
       "url": "https://doi.org/10.1016/j.jallcom.2025.180423",
       "hal": "hal-05795221",
-      "source": "HDR + HAL",
-      "correction": false,
-      "hdr_code": "ACL4"
+      "source": "Bibliographie de l’auteur + HAL",
+      "correction": false
     },
     {
       "category": "ACL",
@@ -160,9 +156,8 @@
       "doi": "10.1016/j.ijhydene.2025.04.272",
       "url": "https://doi.org/10.1016/j.ijhydene.2025.04.272",
       "hal": "hal-05458537",
-      "source": "HDR + HAL",
-      "correction": false,
-      "hdr_code": "ACL3"
+      "source": "Bibliographie de l’auteur + HAL",
+      "correction": false
     },
     {
       "category": "ACL",
@@ -174,9 +169,8 @@
       "doi": "10.1007/s42452-025-07338-x",
       "url": "https://doi.org/10.1007/s42452-025-07338-x",
       "hal": "hal-05458531",
-      "source": "HDR + HAL",
-      "correction": false,
-      "hdr_code": "ACL2"
+      "source": "Bibliographie de l’auteur + HAL",
+      "correction": false
     },
     {
       "category": "ACL",
@@ -214,9 +208,8 @@
       "doi": "10.1007/s40799-024-00751-8",
       "url": "https://doi.org/10.1007/s40799-024-00751-8",
       "hal": "hal-05795224",
-      "source": "HDR + HAL",
-      "correction": false,
-      "hdr_code": "ACL5"
+      "source": "Bibliographie de l’auteur + HAL",
+      "correction": false
     },
     {
       "category": "ACL",
@@ -227,9 +220,8 @@
       "details": "10, e31019",
       "doi": "10.1016/j.heliyon.2024.e31019",
       "url": "https://doi.org/10.1016/j.heliyon.2024.e31019",
-      "source": "HDR + Crossref",
-      "correction": false,
-      "hdr_code": "ACL9"
+      "source": "Bibliographie de l’auteur + Crossref",
+      "correction": false
     },
     {
       "category": "ACL",
@@ -241,9 +233,8 @@
       "doi": "10.1016/j.tsep.2024.102490",
       "url": "https://doi.org/10.1016/j.tsep.2024.102490",
       "hal": "hal-05017995",
-      "source": "HDR + HAL",
-      "correction": false,
-      "hdr_code": "ACL10"
+      "source": "Bibliographie de l’auteur + HAL",
+      "correction": false
     },
     {
       "category": "ACL",
@@ -255,9 +246,8 @@
       "doi": "10.1016/j.ijhydene.2024.06.055",
       "url": "https://doi.org/10.1016/j.ijhydene.2024.06.055",
       "hal": "hal-04752263",
-      "source": "HDR + HAL",
-      "correction": false,
-      "hdr_code": "ACL8"
+      "source": "Bibliographie de l’auteur + HAL",
+      "correction": false
     },
     {
       "category": "ACL",
@@ -269,9 +259,8 @@
       "doi": "10.1016/j.ijhydene.2023.06.209",
       "url": "https://doi.org/10.1016/j.ijhydene.2023.06.209",
       "hal": "hal-04501297",
-      "source": "HDR + HAL",
-      "correction": false,
-      "hdr_code": "ACL13"
+      "source": "Bibliographie de l’auteur + HAL",
+      "correction": false
     },
     {
       "category": "ACL",
@@ -283,9 +272,8 @@
       "doi": "10.1007/s10973-024-13624-4",
       "url": "https://doi.org/10.1007/s10973-024-13624-4",
       "hal": "hal-05458551",
-      "source": "HDR + HAL",
-      "correction": false,
-      "hdr_code": "ACL7"
+      "source": "Bibliographie de l’auteur + HAL",
+      "correction": false
     },
     {
       "category": "ACL",
@@ -297,9 +285,8 @@
       "doi": "10.1177/08927057231176431",
       "url": "https://doi.org/10.1177/08927057231176431",
       "hal": "hal-05795244",
-      "source": "HDR + HAL",
-      "correction": false,
-      "hdr_code": "ACL12"
+      "source": "Bibliographie de l’auteur + HAL",
+      "correction": false
     },
     {
       "category": "ACL",
@@ -311,9 +298,8 @@
       "doi": "10.1002/app.54430",
       "url": "https://doi.org/10.1002/app.54430",
       "hal": "hal-05795263",
-      "source": "HDR + HAL",
-      "correction": false,
-      "hdr_code": "ACL16"
+      "source": "Bibliographie de l’auteur + HAL",
+      "correction": false
     },
     {
       "category": "ACL",
@@ -325,9 +311,8 @@
       "doi": "10.1007/s00170-023-12518-3",
       "url": "https://doi.org/10.1007/s00170-023-12518-3",
       "hal": "hal-05795257",
-      "source": "HDR + HAL",
-      "correction": false,
-      "hdr_code": "ACL15"
+      "source": "Bibliographie de l’auteur + HAL",
+      "correction": false
     },
     {
       "category": "ACL",
@@ -339,9 +324,8 @@
       "doi": "10.1002/fam.3181",
       "url": "https://doi.org/10.1002/fam.3181",
       "hal": "hal-05795237",
-      "source": "HDR + HAL",
-      "correction": false,
-      "hdr_code": "ACL11"
+      "source": "Bibliographie de l’auteur + HAL",
+      "correction": false
     },
     {
       "category": "ACL",
@@ -353,9 +337,8 @@
       "doi": "10.1016/j.cscm.2023.e02599",
       "url": "https://doi.org/10.1016/j.cscm.2023.e02599",
       "hal": "hal-04329720",
-      "source": "HDR + HAL",
-      "correction": false,
-      "hdr_code": "ACL14"
+      "source": "Bibliographie de l’auteur + HAL",
+      "correction": false
     },
     {
       "category": "ACL",
@@ -367,9 +350,8 @@
       "doi": "10.1002/ceat.202200378",
       "url": "https://doi.org/10.1002/ceat.202200378",
       "hal": "hal-05795289",
-      "source": "HDR + HAL",
-      "correction": false,
-      "hdr_code": "ACL18"
+      "source": "Bibliographie de l’auteur + HAL",
+      "correction": false
     },
     {
       "category": "ACL",
@@ -380,9 +362,8 @@
       "details": "29, 10, 1361-1369",
       "doi": "10.1080/15376494.2020.1819489",
       "url": "https://doi.org/10.1080/15376494.2020.1819489",
-      "source": "HDR + Crossref",
-      "correction": false,
-      "hdr_code": "ACL26"
+      "source": "Bibliographie de l’auteur + Crossref",
+      "correction": false
     },
     {
       "category": "ACL",
@@ -393,9 +374,8 @@
       "details": "711, 179211",
       "doi": "10.1016/j.tca.2022.179211",
       "url": "https://doi.org/10.1016/j.tca.2022.179211",
-      "source": "HDR + Crossref",
-      "correction": false,
-      "hdr_code": "ACL23"
+      "source": "Bibliographie de l’auteur + Crossref",
+      "correction": false
     },
     {
       "category": "ACL",
@@ -407,9 +387,8 @@
       "doi": "10.1016/j.petsci.2022.10.008",
       "url": "https://doi.org/10.1016/j.petsci.2022.10.008",
       "hal": "hal-03856796",
-      "source": "HDR + HAL",
-      "correction": false,
-      "hdr_code": "ACL17"
+      "source": "Bibliographie de l’auteur + HAL",
+      "correction": false
     },
     {
       "category": "ACL",
@@ -421,9 +400,8 @@
       "doi": "10.3390/en15134872",
       "url": "https://doi.org/10.3390/en15134872",
       "hal": "hal-05796379",
-      "source": "HDR + HAL",
-      "correction": false,
-      "hdr_code": "ACL20"
+      "source": "Bibliographie de l’auteur + HAL",
+      "correction": false
     },
     {
       "category": "ACL",
@@ -435,9 +413,8 @@
       "doi": "10.1016/j.csite.2022.102465",
       "url": "https://doi.org/10.1016/j.csite.2022.102465",
       "hal": "hal-03856785",
-      "source": "HDR + HAL",
-      "correction": false,
-      "hdr_code": "ACL19"
+      "source": "Bibliographie de l’auteur + HAL",
+      "correction": false
     },
     {
       "category": "ACL",
@@ -449,9 +426,8 @@
       "doi": "10.1002/er.8002",
       "url": "https://doi.org/10.1002/er.8002",
       "hal": "hal-05796381",
-      "source": "HDR + HAL",
-      "correction": false,
-      "hdr_code": "ACL22"
+      "source": "Bibliographie de l’auteur + HAL",
+      "correction": false
     },
     {
       "category": "ACL",
@@ -463,9 +439,8 @@
       "doi": "10.1016/j.jmrt.2022.05.111",
       "url": "https://doi.org/10.1016/j.jmrt.2022.05.111",
       "hal": "hal-05796380",
-      "source": "HDR + HAL",
-      "correction": false,
-      "hdr_code": "ACL21"
+      "source": "Bibliographie de l’auteur + HAL",
+      "correction": false
     },
     {
       "category": "ACL",
@@ -477,9 +452,8 @@
       "doi": "10.3390/en14020458",
       "url": "https://doi.org/10.3390/en14020458",
       "hal": "hal-03856772",
-      "source": "HDR + HAL",
-      "correction": false,
-      "hdr_code": "ACL25"
+      "source": "Bibliographie de l’auteur + HAL",
+      "correction": false
     },
     {
       "category": "ACL",
@@ -491,9 +465,8 @@
       "doi": "10.1615/JPorMedia.2021035331",
       "url": "https://doi.org/10.1615/JPorMedia.2021035331",
       "hal": "hal-05796387",
-      "source": "HDR + HAL",
-      "correction": false,
-      "hdr_code": "ACL24"
+      "source": "Bibliographie de l’auteur + HAL",
+      "correction": false
     },
     {
       "category": "ACL",
@@ -505,9 +478,8 @@
       "doi": "10.1007/s00339-020-03474-w",
       "url": "https://doi.org/10.1007/s00339-020-03474-w",
       "hal": "hal-05796390",
-      "source": "HDR + HAL",
-      "correction": false,
-      "hdr_code": "ACL27"
+      "source": "Bibliographie de l’auteur + HAL",
+      "correction": false
     },
     {
       "category": "ACL",
@@ -518,9 +490,8 @@
       "details": "686, 178563",
       "doi": "10.1016/j.tca.2020.178563",
       "url": "https://doi.org/10.1016/j.tca.2020.178563",
-      "source": "HDR + Crossref",
-      "correction": false,
-      "hdr_code": "ACL28"
+      "source": "Bibliographie de l’auteur + Crossref",
+      "correction": false
     },
     {
       "category": "ACL",
@@ -531,9 +502,8 @@
       "details": "212, 115321",
       "doi": "10.1016/j.ces.2019.115321",
       "url": "https://doi.org/10.1016/j.ces.2019.115321",
-      "source": "HDR + Crossref",
-      "correction": false,
-      "hdr_code": "ACL29"
+      "source": "Bibliographie de l’auteur + Crossref",
+      "correction": false
     },
     {
       "category": "ACL",
@@ -545,9 +515,8 @@
       "doi": "10.1016/j.jlp.2019.04.009",
       "url": "https://doi.org/10.1016/j.jlp.2019.04.009",
       "hal": "hal-05796394",
-      "source": "HDR + HAL",
-      "correction": false,
-      "hdr_code": "ACL31"
+      "source": "Bibliographie de l’auteur + HAL",
+      "correction": false
     },
     {
       "category": "ACL",
@@ -559,9 +528,8 @@
       "doi": "10.1016/j.ijhydene.2018.09.171",
       "url": "https://doi.org/10.1016/j.ijhydene.2018.09.171",
       "hal": "hal-03487001",
-      "source": "HDR + HAL",
-      "correction": false,
-      "hdr_code": "ACL30"
+      "source": "Bibliographie de l’auteur + HAL",
+      "correction": false
     },
     {
       "category": "ACL",
@@ -573,9 +541,8 @@
       "doi": "10.1016/j.applthermaleng.2018.03.012",
       "url": "https://doi.org/10.1016/j.applthermaleng.2018.03.012",
       "hal": "hal-05796399",
-      "source": "HDR + HAL",
-      "correction": false,
-      "hdr_code": "ACL35"
+      "source": "Bibliographie de l’auteur + HAL",
+      "correction": false
     },
     {
       "category": "ACL",
@@ -587,9 +554,8 @@
       "doi": "10.1016/j.ijhydene.2018.04.215",
       "url": "https://doi.org/10.1016/j.ijhydene.2018.04.215",
       "hal": "hal-05796398",
-      "source": "HDR + HAL",
-      "correction": false,
-      "hdr_code": "ACL34"
+      "source": "Bibliographie de l’auteur + HAL",
+      "correction": false
     },
     {
       "category": "ACL",
@@ -601,9 +567,8 @@
       "doi": "10.1016/j.jmapro.2018.07.002",
       "url": "https://doi.org/10.1016/j.jmapro.2018.07.002",
       "hal": "hal-05796397",
-      "source": "HDR + HAL",
-      "correction": false,
-      "hdr_code": "ACL33"
+      "source": "Bibliographie de l’auteur + HAL",
+      "correction": false
     },
     {
       "category": "ACL",
@@ -615,9 +580,8 @@
       "doi": "10.1016/j.enconman.2018.09.038",
       "url": "https://doi.org/10.1016/j.enconman.2018.09.038",
       "hal": "hal-05796395",
-      "source": "HDR + HAL",
-      "correction": false,
-      "hdr_code": "ACL32"
+      "source": "Bibliographie de l’auteur + HAL",
+      "correction": false
     },
     {
       "category": "ACL",
@@ -629,9 +593,8 @@
       "doi": "10.1007/s00231-017-2131-3",
       "url": "https://doi.org/10.1007/s00231-017-2131-3",
       "hal": "hal-05796416",
-      "source": "HDR + HAL",
-      "correction": false,
-      "hdr_code": "ACL36"
+      "source": "Bibliographie de l’auteur + HAL",
+      "correction": false
     },
     {
       "category": "ACL",
@@ -643,9 +606,8 @@
       "doi": "10.1016/j.ijhydene.2016.05.221",
       "url": "https://doi.org/10.1016/j.ijhydene.2016.05.221",
       "hal": "hal-05796419",
-      "source": "HDR + HAL",
-      "correction": false,
-      "hdr_code": "ACL37"
+      "source": "Bibliographie de l’auteur + HAL",
+      "correction": false
     },
     {
       "category": "ACL",
@@ -657,9 +619,8 @@
       "doi": "10.1051/meca/2015035",
       "url": "https://doi.org/10.1051/meca/2015035",
       "hal": "hal-05796431",
-      "source": "HDR + HAL",
-      "correction": false,
-      "hdr_code": "ACL39"
+      "source": "Bibliographie de l’auteur + HAL",
+      "correction": false
     },
     {
       "category": "ACL",
@@ -671,9 +632,8 @@
       "doi": "10.1016/j.ijhydene.2015.04.100",
       "url": "https://doi.org/10.1016/j.ijhydene.2015.04.100",
       "hal": "hal-05796429",
-      "source": "HDR + HAL",
-      "correction": false,
-      "hdr_code": "ACL38"
+      "source": "Bibliographie de l’auteur + HAL",
+      "correction": false
     },
     {
       "category": "ACTI",
@@ -711,9 +671,8 @@
       "doi": "10.1615/ICHMT.2022.CONV22",
       "url": "https://doi.org/10.1615/ICHMT.2022.CONV22",
       "hal": "hal-05796385",
-      "source": "HDR + HAL",
-      "correction": false,
-      "hdr_code": "ACTI6"
+      "source": "Bibliographie de l’auteur + HAL",
+      "correction": false
     },
     {
       "category": "ACTI",
@@ -724,9 +683,8 @@
       "details": "",
       "doi": "",
       "url": "",
-      "source": "HDR",
-      "correction": false,
-      "hdr_code": "ACTI3"
+      "source": "Bibliographie de l’auteur",
+      "correction": false
     },
     {
       "category": "ACTI",
@@ -738,9 +696,8 @@
       "doi": "10.1109/IREC59750.2023.10389414",
       "url": "https://doi.org/10.1109/IREC59750.2023.10389414",
       "hal": "hal-05795254",
-      "source": "HDR + HAL",
-      "correction": false,
-      "hdr_code": "ACTI1"
+      "source": "Bibliographie de l’auteur + HAL",
+      "correction": false
     },
     {
       "category": "ACTI",
@@ -751,9 +708,8 @@
       "details": "",
       "doi": "",
       "url": "",
-      "source": "HDR",
-      "correction": false,
-      "hdr_code": "ACTI4"
+      "source": "Bibliographie de l’auteur",
+      "correction": false
     },
     {
       "category": "ACTI",
@@ -764,9 +720,8 @@
       "details": "",
       "doi": "",
       "url": "",
-      "source": "HDR",
-      "correction": false,
-      "hdr_code": "ACTI2"
+      "source": "Bibliographie de l’auteur",
+      "correction": false
     },
     {
       "category": "ACTI",
@@ -778,9 +733,8 @@
       "doi": "10.1063/5.0163836",
       "url": "https://doi.org/10.1063/5.0163836",
       "hal": "hal-05795279",
-      "source": "HDR + HAL",
-      "correction": false,
-      "hdr_code": "ACTI8"
+      "source": "Bibliographie de l’auteur + HAL",
+      "correction": false
     },
     {
       "category": "ACTI",
@@ -792,9 +746,8 @@
       "doi": "10.1063/5.0162062",
       "url": "https://doi.org/10.1063/5.0162062",
       "hal": "hal-05795284",
-      "source": "HDR + HAL",
-      "correction": false,
-      "hdr_code": "ACTI5"
+      "source": "Bibliographie de l’auteur + HAL",
+      "correction": false
     },
     {
       "category": "ACTI",
@@ -805,9 +758,8 @@
       "details": "",
       "doi": "",
       "url": "",
-      "source": "HDR",
-      "correction": false,
-      "hdr_code": "ACTI7"
+      "source": "Bibliographie de l’auteur",
+      "correction": false
     },
     {
       "category": "ACTI",
@@ -818,9 +770,8 @@
       "details": "",
       "doi": "",
       "url": "",
-      "source": "HDR",
-      "correction": false,
-      "hdr_code": "ACTI9"
+      "source": "Bibliographie de l’auteur",
+      "correction": false
     },
     {
       "category": "ACTI",
@@ -831,9 +782,8 @@
       "details": "",
       "doi": "",
       "url": "",
-      "source": "HDR",
-      "correction": false,
-      "hdr_code": "ACTI10"
+      "source": "Bibliographie de l’auteur",
+      "correction": false
     },
     {
       "category": "ACTI",
@@ -845,9 +795,8 @@
       "doi": "10.1109/IREC.2018.8362539",
       "url": "https://doi.org/10.1109/IREC.2018.8362539",
       "hal": "hal-05796414",
-      "source": "HDR + HAL",
-      "correction": false,
-      "hdr_code": "ACTI11"
+      "source": "Bibliographie de l’auteur + HAL",
+      "correction": false
     },
     {
       "category": "ACTI",
@@ -859,9 +808,8 @@
       "doi": "10.1615/ICHMT.2014.IntSympConvHeatMassTransf",
       "url": "https://doi.org/10.1615/ICHMT.2014.IntSympConvHeatMassTransf",
       "hal": "hal-05796441",
-      "source": "HDR + HAL",
-      "correction": false,
-      "hdr_code": "ACTI12"
+      "source": "Bibliographie de l’auteur + HAL",
+      "correction": false
     },
     {
       "category": "COM",
@@ -872,9 +820,8 @@
       "details": "",
       "doi": "",
       "url": "",
-      "source": "HDR",
-      "correction": false,
-      "hdr_code": "COM1"
+      "source": "Bibliographie de l’auteur",
+      "correction": false
     },
     {
       "category": "COM",
@@ -885,9 +832,8 @@
       "details": "",
       "doi": "",
       "url": "",
-      "source": "HDR",
-      "correction": false,
-      "hdr_code": "COM3"
+      "source": "Bibliographie de l’auteur",
+      "correction": false
     },
     {
       "category": "COM",
@@ -898,9 +844,8 @@
       "details": "",
       "doi": "",
       "url": "",
-      "source": "HDR",
-      "correction": false,
-      "hdr_code": "COM2"
+      "source": "Bibliographie de l’auteur",
+      "correction": false
     },
     {
       "category": "COM",
@@ -911,9 +856,8 @@
       "details": "",
       "doi": "",
       "url": "",
-      "source": "HDR",
-      "correction": false,
-      "hdr_code": "COM4"
+      "source": "Bibliographie de l’auteur",
+      "correction": false
     },
     {
       "category": "COM",
@@ -924,9 +868,8 @@
       "details": "",
       "doi": "",
       "url": "",
-      "source": "HDR",
-      "correction": false,
-      "hdr_code": "COM5"
+      "source": "Bibliographie de l’auteur",
+      "correction": false
     },
     {
       "category": "INV",
@@ -937,9 +880,8 @@
       "details": "",
       "doi": "",
       "url": "",
-      "source": "HDR",
-      "correction": false,
-      "hdr_code": "INV1"
+      "source": "Bibliographie de l’auteur",
+      "correction": false
     },
     {
       "category": "COS",
@@ -951,9 +893,8 @@
       "doi": "10.1007/978-3-031-43934-6_42",
       "url": "https://doi.org/10.1007/978-3-031-43934-6_42",
       "hal": "hal-05795333",
-      "source": "HDR + HAL",
-      "correction": false,
-      "hdr_code": "OS2"
+      "source": "Bibliographie de l’auteur + HAL",
+      "correction": false
     },
     {
       "category": "COS",
@@ -965,9 +906,8 @@
       "doi": "10.1007/978-3-031-43934-6_14",
       "url": "https://doi.org/10.1007/978-3-031-43934-6_14",
       "hal": "hal-05795327",
-      "source": "HDR + HAL",
-      "correction": false,
-      "hdr_code": "OS1"
+      "source": "Bibliographie de l’auteur + HAL",
+      "correction": false
     }
   ]
 }
