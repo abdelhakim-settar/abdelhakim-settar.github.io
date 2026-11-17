@@ -364,3 +364,57 @@ if (search && year) {
     const url=URL.createObjectURL(new Blob([csv],{type:'text/csv;charset=utf-8'}));exportLink.href=url;exportLink.dataset.blob=url;
   });
 })();
+
+/* Public GoatCounter widget. Disabled until the owner creates and configures the account. */
+(() => {
+  'use strict';
+  const widget = document.querySelector('[data-site-traffic]');
+  if (!widget || location.protocol !== 'https:') return;
+  const fr = document.documentElement.lang === 'fr';
+  const text = (f, e) => fr ? f : e;
+  async function start() {
+    const response = await fetch('/analytics-config.json', {credentials: 'omit'});
+    if (!response.ok) return;
+    const config = await response.json();
+    if (config.enabled !== true || config.site_hostname !== location.hostname ||
+        typeof config.site_code !== 'string' || !/^[a-z0-9][a-z0-9-]{1,59}$/.test(config.site_code)) return;
+    const origin = `https://${config.site_code}.goatcounter.com`;
+    // Only public counter data is fetched. No API key belongs in this static site.
+    const script = document.createElement('script');
+    script.src = 'https://gc.zgo.at/count.js';
+    script.async = true;
+    script.dataset.goatcounter = origin + '/count';
+    document.head.append(script);
+    widget.querySelector('[data-traffic-dashboard]').href = origin;
+    const since = widget.querySelector('[data-traffic-since]');
+    if (/^\d{4}-\d{2}-\d{2}$/.test(config.started_on)) {
+      const date = new Date(config.started_on + 'T12:00:00Z');
+      if (!Number.isNaN(date.valueOf())) since.textContent = text('Depuis le ', 'Since ') +
+        date.toLocaleDateString(fr ? 'fr-FR' : 'en-GB', {day: 'numeric', month: 'long', year: 'numeric'});
+    }
+    widget.hidden = false;
+    const details = widget.querySelector('details');
+    details.addEventListener('toggle', () => {
+      if (!details.open || details.querySelector('iframe')) return;
+      const frame = document.createElement('iframe');
+      frame.src = origin + '/?hideui=1';
+      frame.title = text('Statistiques publiques des visites et des pays', 'Public visit and country statistics');
+      frame.loading = 'lazy';
+      frame.referrerPolicy = 'no-referrer';
+      details.append(frame);
+    });
+    try {
+      const counterResponse = await fetch(origin + '/counter/TOTAL.json', {
+        credentials: 'omit', signal: AbortSignal.timeout(10000)
+      });
+      if (!counterResponse.ok) throw new Error('Counter unavailable');
+      const data = await counterResponse.json();
+      if (typeof data.count !== 'string' || !/^[\d\s,.\u00a0\u202f]+$/.test(data.count) || data.count.length > 32)
+        throw new Error('Invalid counter');
+      widget.querySelector('[data-traffic-count]').textContent = data.count;
+    } catch (_) {
+      widget.querySelector('[data-traffic-count]').textContent = text('Indisponible', 'Unavailable');
+    }
+  }
+  start().catch(() => { /* Leave the widget hidden when configuration cannot be read. */ });
+})();
